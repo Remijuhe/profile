@@ -91,14 +91,35 @@ p {
   color: #424B54;
 }
 
-#sidebar {
-  position: fixed;
-  width: 300px;
-  left: 0;
-  top: 0;
-  bottom: 0;
+.logo_sidebar {
+  font-size: 40px;
+  padding: 10px;
+  color: #C5BAAF;
 }
+
+.logo_sidebar:hover {
+  color: #424B54;
+}
+
+
+#sidebar {
+  background-color: #424B54;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 150px;
+  text-align: center;
+}
+
+#sidebar li {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+}
+
 #page-content {
   margin-left: 300px;
 }
+
 
